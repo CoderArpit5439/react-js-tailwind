@@ -3,6 +3,7 @@ import './App.css';
 import Layout from './layout';
 import WOW from 'wowjs';
 import { useEffect } from 'react';
+import Routers from './routers';
 
 function App() {
   useEffect(() => {
@@ -12,7 +13,7 @@ function App() {
   }, [])
   return (
     <div>
-      <Layout />
+      <Routers />
     </div>
   );
 }
